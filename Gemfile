@@ -4,6 +4,11 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.0"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
+
+gem "bunny", "~> 2.17.0"
+
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
